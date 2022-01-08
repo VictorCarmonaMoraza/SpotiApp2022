@@ -37,3 +37,10 @@ https://restcountries.com/v3.1/lang/spa
 ## 97-Introducción a las peticiones HTTP
 Esta clase es de introduccion a las peticiones http y para ello 
 hemos llamado a un endpoints que nos devuelve todos los paises que hablan español y lo hemos imprimido en el html del componente home.
+
+## 98-Actualización - Token para uso de servicios Spotify
+Es un video que nos muestra información de como obtener el token de spotify con nuestras credenciales y solo es válido durante una hora, por lo cual a la hora habra que renovarlo.En este video desharemos los cambios del video 97 que se utilizo para obtener los datos de los paises.
+
+
+ 
+ 
