@@ -27,4 +27,13 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 ## 95-Creando las rutas de nuestra aplicación
-En esta seccion hemos agregado el archivo app.routes.ts que contendra las rutas de nuestra aplicación, tambien hemos creado el navbar de nuestro componente que lo hemos copiado de bootstrap version 4.0 y hemos hecho todas las modificaciones correspondientes en el archivo app.module.ts para la utilizacion de rutas. 
+En esta seccion hemos agregado el archivo app.routes.ts que contendra las rutas de nuestra aplicación, tambien hemos creado el navbar de nuestro componente que lo hemos copiado de bootstrap version 4.0 y hemos hecho todas las modificaciones correspondientes en el archivo app.module.ts para la utilizacion de rutas.
+## 96-Notas
+Informacion sobre un API para trabajar con paises:
+https://restcountries.com/
+Obtener los paises que hablan español:
+https://restcountries.com/v3.1/lang/spa
+
+## 97-Introducción a las peticiones HTTP
+Esta clase es de introduccion a las peticiones http y para ello 
+hemos llamado a un endpoints que nos devuelve todos los paises que hablan español y lo hemos imprimido en el html del componente home.
