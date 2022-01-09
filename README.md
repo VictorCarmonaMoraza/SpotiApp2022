@@ -44,4 +44,5 @@ Es un video que nos muestra información de como obtener el token de spotify con
 ## 99-HTTPClient -Service: Conectandonos a Spotify
 Hemos creado el servicio para hacer las llamadas a Spotify y hemos montado en postman el metodo para obtener el token de spotify, tambien hemos implementado en el home.component.ts la llamada al servicio para que nos devuelva los datos obtenidos de la llamada al endospoint de spotify donde obtenemos los nuevos estrenos.
  
- 
+ ## 100-Consumiendo información del servicio de Spotify
+ Modificamos el metodo del servicio para que nos proporcione información del endspoint de spotify, agregarmos unas cars de bootstrap para mostrar el contenido que nos viene de spotify

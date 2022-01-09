@@ -9,8 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent{
 
+  nuevasCanciones: any[] = [];
+
   constructor(private spotify: ServiceSpotifyService) {
-    this.spotify.getNewReleases();
+    this.spotify.getNewReleases()
+      .subscribe((data:any) => {
+        console.log(data.albums.items);
+        this.nuevasCanciones =data.albums.items
+    })
   }
 
 

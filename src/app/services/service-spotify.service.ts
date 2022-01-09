@@ -16,13 +16,11 @@ export class ServiceSpotifyService {
 
     const resp: any[] = [];
     const headers = new HttpHeaders({
-      'Authorization':'Bearer BQCsQZSjrcSXxFA3-ZvLtcKaSIJdiXt0lgZfvLKwh_traiFkYC5-zSCMM_rRrNsFy8Yry3iCJXINfybnRoc'
+      'Authorization':'Bearer BQCuOkqnNOHW94NPP4Cs9d_YjfDBWhsml70b2cmZxGuELaO3BGXxGv6Ru_Q3h-ZHkHfOKEn16X9RgxlXuUg'
     });
 
-    this.http.get('	https://api.spotify.com/v1/browse/new-releases', {headers})
-      .subscribe(resp => {
-        console.log(resp);
-      });
-   
+     return this.http.get('	https://api.spotify.com/v1/browse/new-releases', { headers });
+
+
   }
 }
