@@ -1,4 +1,5 @@
-import { HttpClient } from '@angular/common/http';
+import { ServiceSpotifyService } from './../../services/service-spotify.service';
+//import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -6,13 +7,12 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './home.component.html',
   styles: []
 })
-export class HomeComponent implements OnInit {
+export class HomeComponent{
 
-  constructor() {
-
+  constructor(private spotify: ServiceSpotifyService) {
+    this.spotify.getNewReleases();
   }
 
-  ngOnInit() {
-  }
+
 
 }

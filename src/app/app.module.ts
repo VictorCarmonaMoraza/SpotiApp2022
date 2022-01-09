@@ -4,7 +4,7 @@ import { RouterModule } from '@angular/router';
 
 //Servicios
 import { HttpClientModule } from '@angular/common/http';
-
+import { ServiceSpotifyService } from './services/service-spotify.service';
 //Componentes
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
@@ -14,6 +14,7 @@ import { SearchComponent } from './components/search/search.component';
 
 //Rutas
 import { ROUTES } from './app.routes';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +28,7 @@ import { ROUTES } from './app.routes';
     HttpClientModule,
     RouterModule.forRoot(ROUTES,{useHash:true})
   ],
-  providers: [],
+  providers: [ServiceSpotifyService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

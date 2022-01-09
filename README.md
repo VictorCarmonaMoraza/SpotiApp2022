@@ -41,6 +41,7 @@ hemos llamado a un endpoints que nos devuelve todos los paises que hablan españ
 ## 98-Actualización - Token para uso de servicios Spotify
 Es un video que nos muestra información de como obtener el token de spotify con nuestras credenciales y solo es válido durante una hora, por lo cual a la hora habra que renovarlo.En este video desharemos los cambios del video 97 que se utilizo para obtener los datos de los paises.
 
-
+## 99-HTTPClient -Service: Conectandonos a Spotify
+Hemos creado el servicio para hacer las llamadas a Spotify y hemos montado en postman el metodo para obtener el token de spotify, tambien hemos implementado en el home.component.ts la llamada al servicio para que nos devuelva los datos obtenidos de la llamada al endospoint de spotify donde obtenemos los nuevos estrenos.
  
  
